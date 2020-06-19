@@ -1,0 +1,36 @@
+body{
+    background-color: #f5d0dc;
+}
+
+div#container,div#back{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#back p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table{
+    border: 5px solid #9A91f2;
+    caption-side: bottom;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border: 2px dotted #9A91f2;
+    padding: 5px;
+    background-color: #c68;
+}
+
+caption{
+    font-size: 36px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(189, 24, 24);
+}

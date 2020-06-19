@@ -1,0 +1,263 @@
+body{
+    background-color: #204888a9;
+    /*background: url(../images/背景1.jpg) no-repeat;*/
+    /* background:  url(../images/底纹1.jpg); */
+    background-size:100%;
+    margin: 0;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#title{
+    text-align: center;
+}
+
+div#header{
+    height: 100px;
+    background-color:#9A91F2;
+    background: url(../images/背景1.jpg);
+}
+
+div#header div.inner{
+    height: 100px;
+    background: url(../images/logo.jpg) no-repeat center;
+    position: relative;
+
+}
+
+div#header div.inner div.head{
+    height: 90px;
+    position: relative;
+    background-color: #9A91F2;
+}
+
+ /* h1{
+     margin: 0;
+    color: #9A91F2;
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-align: center;
+} */
+
+div#nav{
+    height: 50px;
+    background-color: #b39858;
+}
+
+div#nav div.inner{
+    text-align: center;
+}
+
+div#nav ul{
+    height: 30px;
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+}
+
+div#nav ul li{
+    display: inline;
+    padding: 5px 70px;
+    position: relative;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+div#nav ul a{
+    font-family: "Microcoft Yahei";
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+div#nav ul li a:link,div#nav ul li a:visited{
+    color: dimgray;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+div#nav ul li a:hover{
+    background-color:#9A91F2;
+    border-width: 30px;
+}
+
+div#container_1
+{
+    height:300px;
+    background-color: cornsilk;
+    background: url(../images/底纹1.jpg) ;
+}
+
+div#container_1 div.inner div#cont_1_1{
+    width: 500px;
+    height: 280px;
+    background-color:#EAF2FF;
+    border-top: 4px solid #9A91F2;
+    float: left;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+div#container_1 div.inner div#cont_1_1 h2{
+    margin-left: 20px;
+    font-family: cursive;
+    color: #cc6600;
+    border-bottom: thin dotted #888888;
+}
+
+div#container_1 div.inner div#cont_1_1 li{
+    list-style: url(../images/列表项.jpg);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: serif;
+    color: rgb(201, 128, 128);
+    margin:10px 20px;
+}
+
+div#part1{
+    float: left;
+}
+
+div#part2{
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+div#container_1 div.inner div#cont_1_2{
+    width: 450px;
+    height: 280px;
+    background-color:#9A91F2;
+    float: left;
+    border-top: 4px solid #EAF2FF;
+    margin-top: 10px;
+}
+
+div#container_1 div.inner div#cont_1_2 h2{
+    text-align: center;
+    margin-top: 5px;
+    font-family: cursive;
+    border-bottom: dotted #6e0303;
+}
+
+div#container_1 div.inner div#cont_1_2 p{
+    text-align: center;
+    font-family: serif;
+    color: #EAF2FF;
+    
+}
+
+div#container_2
+{
+    height:400px;
+    background: url(../images/底纹2.jpg) ;
+    border-top: 7px dotted rgb(2, 163, 155);
+}
+
+div#container_2 div.inner div#cont_2_1{
+    width: 380px;
+    height: 380px;
+    background: url(../images/背景2.jpg);
+    background-color:#9A91F2;
+    float: left;
+    margin-top: 10PX;
+}
+
+div#container_2 div.inner div#cont_2_1 h2{
+    text-align: center;
+    color: #22877c;
+    font-weight: bold;
+}
+
+div#container_2 div.inner div#cont_2_1 p{
+    font-family: fantasy;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div#container_2 div.inner div#cont_2_2{
+    width: 300px;
+    height: 380px;
+    background-color: floralwhite;
+    float: left;
+    margin-top: 10PX;
+    margin-left: 20PX;
+}
+
+div#container_2 div.inner div#cont_2_2 h2{
+    text-align: center;
+    color: #22877c;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div#container_2 div.inner div#cont_2_2 div#card1{
+    float: left;
+    margin-bottom: 0;
+}
+
+div#container_2 div.inner div#cont_2_2 div#card2{
+    float: right;
+    margin-right: 5px;
+}
+
+div#container_2 div.inner div#cont_2_2 div#card3{
+    float: left;
+    margin-top: 0;
+}
+
+div#container_2 div.inner div#cont_2_2 div#card4{
+    float: right;
+}
+
+div#container_2 div.inner div#cont_2_3{
+    width: 280px;
+    height: 380px;
+    background-color:#9A91F2;
+    float: left;
+    margin-top: 10PX;
+    margin-left: 20PX;
+}
+
+div#container_2 div.inner div#cont_2_3 h2{
+    text-align: center;
+    color: #fff;
+}
+
+div#container_2 div.inner div#cont_2_3 div#part{
+    margin-left: 10px;
+
+}
+
+div#container_2 div.inner div#cont_2_3 div#h1{
+    text-align: right;
+    margin-right: 5px;
+}
+
+div#container_2 div.inner div#cont_2_3 div#h2{
+    float: right;
+    font-style: italic;
+    color: #EAF2FF;
+    margin-left: 0;
+}
+
+div#foot{
+    height: 50px;
+    text-align: center;
+}
+
+div#foot p {
+    color: #141414;
+    margin: 0;
+    font-weight: bold;
+}
